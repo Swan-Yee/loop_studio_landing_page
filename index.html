@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+      <nav class="header__nav" id="scroll-header">
+        <img src="./images/logo.svg" alt="logo" class="main-logo">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">About</li>
+          <li class="header__nav__list__item">Careers</li>
+          <li class="header__nav__list__item">Events</li>
+          <li class="header__nav__list__item">Products</li>
+          <li class="header__nav__list__item">Support</li>
+        </ul>
+        <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="d--m-show icon-ham" id="icon-open">
+      </nav>
+    <div class="container">
+      <section class="header__home">
+          <span class="header__home__para">
+            Immersive experiences that deliver
+          </span>
+      </section>
+    </div>
+  </header>
+  <div class="container">
+      <section class="about">
+        <img src="./images/desktop/image-interactive.jpg" alt="img" class="about__img d--m-hide">
+        <img src="./images/mobile/image-interactive.jpg" alt="img" class="about__img d--m-show">
+
+      <div class="about__text">
+        <h2 class="about__text__title">
+           The leader in interactive VR
+        </h2>
+        <p class="about__text__para">
+            Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+        </p>
+      </div>
+    </section>
+    <section class="creation">
+      <h3 class="creation__title">Our creation</h3>
+      <div class="creation__body">
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-deep-earth.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-deep-earth.jpg" alt="img-earth">
+        <span class="creation__body__img-title">Deep earth</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-night-arcade.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-night-arcade.jpg" alt="img-games">
+          <span class="creation__body__img-title">Night arcade</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-soccer-team.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-soccer-team.jpg" alt="img-soccer">
+          <span class="creation__body__img-title">Soccer team VR</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-grid.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-grid.jpg" alt="img-racing">
+          <span class="creation__body__img-title">The grid</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-from-above.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-from-above.jpg" alt="img-places">
+          <span class="creation__body__img-title">From up above VR</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-pocket-borealis.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-pocket-borealis.jpg" alt="img-borealis">
+          <span class="creation__body__img-title">Pocket borealis</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-curiosity.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-curiosity.jpg" alt="img-curiosity">
+          <span class="creation__body__img-title">The curiosity</span>
+        </picture>
+        <picture class="creation__body__img-content">
+          <source srcset="images/desktop/image-fisheye.jpg" media="(min-width: 768px)">
+          <img class="creation__body__img" src="images/mobile/image-fisheye.jpg" alt="img-eyefish">
+          <span class="creation__body__img-title">Make it fisheye</span>
+        </picture>
+      </div>
+      <a href="#" class="creation__btn">See all</a>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-container__logo">
+              <img src="./images/logo.svg" alt="logo">
+            </div>
+            <ul class="footer-container__list-social">
+              <li class="footer-container__list-social__item"><img src="./images/icon-facebook.svg" alt="facebook"></li>
+              <li class="footer-container__list-social__item"><img src="./images/icon-instagram.svg" alt="instagram"></li>
+              <li class="footer-container__list-social__item"><img src="./images/icon-pinterest.svg" alt="pinterest"></li>
+              <li class="footer-container__list-social__item"><img src="./images/icon-twitter.svg" alt="twitter"></li>
+            </ul>
+            <ul class="footer-container__list">
+              <li class="footer-container__list__item">About</li>
+              <li class="footer-container__list__item">Careers</li>
+              <li class="footer-container__list__item">Events</li>
+              <li class="footer-container__list__item">Products</li>
+              <li class="footer-container__list__item">Support</li>
+            </ul>
+            <div class="footer-container__credit">
+                © 2021 Loopstudios. All rights reserved.
+            </div>
+        </div>
+    </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Swan Yee Tun</a>.
+      </div>
+  </footer>
+  <script src="./src/js/app.js"></script>
+</body>
+</html>
